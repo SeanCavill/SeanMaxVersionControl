@@ -8,7 +8,7 @@ Git commands
 
     Atlassian. (n.d.). Git Cherry Pick | Atlassian Git Tutorial. Atlassian. Retrieved 11 September 2020, from https://www.atlassian.com/git/tutorials/cherry-pick
 
-    <img src="img/CherryPicking.png>
+    <img src="img\CherryPicking.png>
 
 2.)unstaging
 
