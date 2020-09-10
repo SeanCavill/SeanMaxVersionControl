@@ -71,19 +71,21 @@ Git commands
 
     One of the common undos takes place when you commit too early and possibly forget to add some files, or you mess up your commit message. If you want to redo that commit, make the additional changes you forgot, stage them, and commit again using the --amend option:
 
-    $ git commit --amend
+> $ git commit --amend
     This command takes your staging area and uses it for the commit. If you’ve made no changes since your last commit (for instance, you run this command immediately after your previous commit), then your snapshot will look exactly the same, and all you’ll change is your commit message.
 
     The same commit-message editor fires up, but it already contains the message of your previous commit. You can edit the message the same as always, but it overwrites your previous commit.
 
     As an example, if you commit and then realize you forgot to stage the changes in a file you wanted to add to this commit, you can do something like this:
 
-    $ git commit -m 'Initial commit'
-    $ git add forgotten_file
-    $ git commit --amend
+>$ git commit -m 'Initial commit'
+>$ git add forgotten_file
+>$ git commit --amend
     You end up with a single commit — the second commit replaces the results of the first.
 
     Git—Undoing Things. (n.d.). Retrieved 11 September 2020, from https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things
+
+Our example:
 
 
 5.)rebasing
