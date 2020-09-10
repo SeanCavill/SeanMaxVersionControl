@@ -125,7 +125,23 @@ example:
 
 <img src="img\rebasing.png">
 
-6.)stashing
+    6.)stashing
+
+    Often, when you’ve been working on part of your project, things are in a messy state and you want to switch branches for a bit to work on something else. The problem is, you don’t want to do a commit of half-done work just so you can get back to this point later. The answer to this issue is the git stash command.
+
+    Stashing takes the dirty state of your working directory — that is, your modified tracked files and staged changes — and saves it on a stack of unfinished changes that you can reapply at any time (even on a different branch).
+
+    Git—Stashing and Cleaning. (n.d.). Retrieved 11 September 2020, from https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning
+
+    our example: I added the text for stashing, checked to see it was there in the status, and then used git stash to stash it so I can switch branches. I then went back in to the branch and did a git stash apply, and it brought back my previous work that was uncommited..
+
+<img src="img\stashing1.png">
+<img src="img\stashing2.png">
+
+
+
+
+
 
 7.)cleaning
 
