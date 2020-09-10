@@ -1,0 +1,20 @@
+{
+  "name": "SeanMaxVersionControl",
+  "version": "1.0.0",
+  "description": "this is version control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanCavill/SeanMaxVersionControl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanCavill/SeanMaxVersionControl/issues"
+  },
+  "homepage": "https://github.com/SeanCavill/SeanMaxVersionControl#readme"
+}
