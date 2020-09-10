@@ -36,13 +36,13 @@ example:
     Our example:
 
     We have an html with Hey, It's, Ya and Boi's.
-    <img src="/img/unstaging1.png" />
+<img src="/img/unstaging1.png" />
 
     I 'accidently' deleted this component!
-    <img src="/img/unstaging2.png" />
+<img src="/img/unstaging2.png" />
 
     Now I can revert it back
-    <img src="/img/unstaging3.png" />
+<img src="/img/unstaging3.png" />
 
 3.)unmodifying
 
