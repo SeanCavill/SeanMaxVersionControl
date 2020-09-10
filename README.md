@@ -143,16 +143,32 @@ example:
 
 
 
-7.)cleaning
+    7.)cleaning
 
-Cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
+    Cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
 
-Normally, only files unknown to Git are removed, but if the -x option is specified, ignored files are also removed. This can, for example, be useful to remove all build products.
+    Normally, only files unknown to Git are removed, but if the -x option is specified, ignored files are also removed. This can, for example, be useful to remove all build products.
 
-If any optional <path>... arguments are given, only those paths are affected.
+    If any optional <path>... arguments are given, only those paths are affected.
 
-our example:
+    Git—Git-clean Documentation. (n.d.). Retrieved 11 September 2020, from https://git-scm.com/docs/git-clean
 
-Cleaning removes files that aren't part of the version control. I create a new fiile called anewreadme.md, and ran git clean -f which removed the file from the directory.
+
+    our example:
+
+    Cleaning removes files that aren't part of the version control. I create a new fiile called anewreadme.md, and ran git clean -f which removed the file from the directory.
+
+<img src="img\cleaning.png">
 
 8.)branching workflow
+
+    The core idea behind the Feature Branch Workflow is that all feature development should take place in a dedicated branch instead of the master branch. This encapsulation makes it easy for multiple developers to work on a particular feature without disturbing the main codebase. It also means the master branch will never contain broken code, which is a huge advantage for continuous integration environments.
+
+    our example:
+
+    For our work flow we created two seperate branches "Sean and Max" using git checkout -b sean etc. We then developed our work on our alternate branches and merged them into master using a pull request.
+
+    Atlassian. (n.d.). Git Feature Branch Workflow | Atlassian Git Tutorial. Atlassian. Retrieved 11 September 2020, from https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
+<img src="img\branchworkflow.png">
+
