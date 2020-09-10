@@ -123,6 +123,8 @@ example:
 
     Git—Rebasing. (n.d.). Retrieved 11 September 2020, from https://git-scm.com/book/en/v2/Git-Branching-Rebasing
 
+<img src="img\rebasing.png">
+
 6.)stashing
 
 7.)cleaning
