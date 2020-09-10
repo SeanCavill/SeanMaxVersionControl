@@ -67,6 +67,8 @@ example:
 
     Git—Undoing Things. (n.d.). Retrieved 11 September 2020, from https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things
 
+    hi
+
 4.)undoing
 
     At any stage, you may want to undo something. Here, we’ll review a few basic tools for undoing changes that you’ve made. Be careful, because you can’t always undo some of these undos. This is one of the few areas in Git where you may lose some work if you do it wrong.
