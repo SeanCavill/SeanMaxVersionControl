@@ -145,4 +145,14 @@ example:
 
 7.)cleaning
 
+Cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
+
+Normally, only files unknown to Git are removed, but if the -x option is specified, ignored files are also removed. This can, for example, be useful to remove all build products.
+
+If any optional <path>... arguments are given, only those paths are affected.
+
+our example:
+
+Cleaning removes files that aren't part of the version control. I create a new fiile called anewreadme.md, and ran git clean -f which removed the file from the directory.
+
 8.)branching workflow
