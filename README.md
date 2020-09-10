@@ -27,6 +27,17 @@ Git commands
 
     Unstage | GitLab. (n.d.). Retrieved 11 September 2020, from https://docs.gitlab.com/ee/university/training/topics/unstage.html
 
+    Our example:
+
+    We have an html with Hey, It's, Ya and Boi's.
+    <img src="\img\unstaging1.png" />
+
+    I 'accidently' deleted this component!
+    <img src="\img\unstaging2.png" />
+
+    Now I can revert it back
+    <img src="\img\unstaging3.png" />
+
 3.)unmodifying
     Unmodifying a Modified File
     What if you realize that you don’t want to keep your changes to the CONTRIBUTING.md file? How can you easily unmodify it — revert it back to what it looked like when you last committed (or initially cloned, or however you got it into your working directory)? Luckily, git status tells you how to do that, too. In the last example output, the unstaged area looks like this:
