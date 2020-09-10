@@ -164,11 +164,12 @@ example:
 
     The core idea behind the Feature Branch Workflow is that all feature development should take place in a dedicated branch instead of the master branch. This encapsulation makes it easy for multiple developers to work on a particular feature without disturbing the main codebase. It also means the master branch will never contain broken code, which is a huge advantage for continuous integration environments.
 
+    Atlassian. (n.d.). Git Feature Branch Workflow | Atlassian Git Tutorial. Atlassian. Retrieved 11 September 2020, from https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
     our example:
 
     For our work flow we created two seperate branches "Sean and Max" using git checkout -b sean etc. We then developed our work on our alternate branches and merged them into master using a pull request.
 
-    Atlassian. (n.d.). Git Feature Branch Workflow | Atlassian Git Tutorial. Atlassian. Retrieved 11 September 2020, from https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
 <img src="img\branchworkflow.png">
 
