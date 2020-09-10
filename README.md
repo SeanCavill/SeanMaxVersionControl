@@ -31,6 +31,17 @@ Git commands
 
     Unstage | GitLab. (n.d.). Retrieved 11 September 2020, from https://docs.gitlab.com/ee/university/training/topics/unstage.html
 
+    Our example:
+
+    We have an html with Hey, It's, Ya and Boi's.
+    <img src="\img\unstaging1.png" />
+
+    I 'accidently' deleted this component!
+    <img src="\img\unstaging2.png" />
+
+    Now I can revert it back
+    <img src="\img\unstaging3.png" />
+
 3.)unmodifying
 
     Unmodifying a Modified File
