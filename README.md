@@ -105,6 +105,7 @@ Our example:
     I run the following to 'redo' the last commit
 <image src="/img/undoing2.png" />
 <image src="/img/undoing3.png" />
+<image src="/img/undoing4.png" />
 
 5.)rebasing
 
