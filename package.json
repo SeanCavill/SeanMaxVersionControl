@@ -1,5 +1,5 @@
 {
-  "name": "SeanMaxVersionControl",
+  "name": "seanmaxversioncontrol",
   "version": "1.0.0",
   "description": "this is version control",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SeanCavill/SeanMaxVersionControl.git"
+    "url": "git+https://github.com/SeanCavill/seanmaxversioncontrol.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SeanCavill/SeanMaxVersionControl/issues"
+    "url": "https://github.com/SeanCavill/seanmaxversioncontrol/issues"
   },
-  "homepage": "https://github.com/SeanCavill/SeanMaxVersionControl#readme"
+  "homepage": "https://github.com/SeanCavill/seanmaxversioncontrol#readme"
 }
