@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+h2{
+    padding-top: 200px;
+}
+
+/*body css */
+body{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/s4btp-850043211-Full-Image_GalleryBackground-en-US-1586704540729._RI_.jpg);
+}
