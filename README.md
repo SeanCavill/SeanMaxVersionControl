@@ -3,6 +3,7 @@
 Git commands
 
 1.)cherry-pick
+
     git cherry-pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes. For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.
 
     Atlassian. (n.d.). Git Cherry Pick | Atlassian Git Tutorial. Atlassian. Retrieved 11 September 2020, from https://www.atlassian.com/git/tutorials/cherry-pick
@@ -10,6 +11,7 @@ Git commands
     <img src="img/CherryPicking.png/>
 
 2.)unstaging
+
     To remove files from stage use reset HEAD where HEAD is the last commit of the current branch. This will unstage the file but maintain the modifications.
 
     git reset HEAD <file>
@@ -30,6 +32,7 @@ Git commands
     Unstage | GitLab. (n.d.). Retrieved 11 September 2020, from https://docs.gitlab.com/ee/university/training/topics/unstage.html
 
 3.)unmodifying
+
     Unmodifying a Modified File
     What if you realize that you don’t want to keep your changes to the CONTRIBUTING.md file? How can you easily unmodify it — revert it back to what it looked like when you last committed (or initially cloned, or however you got it into your working directory)? Luckily, git status tells you how to do that, too. In the last example output, the unstaged area looks like this:
 
