@@ -100,11 +100,11 @@ example:
 Our example:
 
     I've just committed and pushed but forgot to add a file!
-<image src="/img/undoing1">
+<image src="/img/undoing1.png" />
 
     I run the following to 'redo' the last commit
-<image src="/img/undoing2">
-<image src="/img/undoing3">
+<image src="/img/undoing2.png" />
+<image src="/img/undoing3.png" />
 
 5.)rebasing
 
