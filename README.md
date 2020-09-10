@@ -67,7 +67,15 @@ example:
 
     Git—Undoing Things. (n.d.). Retrieved 11 September 2020, from https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things
 
-    hi
+    Our example:
+
+    In the example I first modify the read my file and check the git status which shows it has been changed.
+
+<img src="img\gitunmodify1.png">
+
+    I think used git checkout -- README.md to restore the file to before I modified it, and on checking the git status again it was restored.
+
+<img src="img\gitmodify2.png">
 
 4.)undoing
 
