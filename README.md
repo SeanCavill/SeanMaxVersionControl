@@ -7,6 +7,8 @@ Git commands
 
     Atlassian. (n.d.). Git Cherry Pick | Atlassian Git Tutorial. Atlassian. Retrieved 11 September 2020, from https://www.atlassian.com/git/tutorials/cherry-pick
 
+    <img src="img/CherryPicking.png/>
+
 2.)unstaging
     To remove files from stage use reset HEAD where HEAD is the last commit of the current branch. This will unstage the file but maintain the modifications.
 
